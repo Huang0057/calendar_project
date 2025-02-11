@@ -1,0 +1,39 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+.vs/
+.vscode/
+*.suo
+*.cache
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.nuxt/
+
+# 環境檔案
+.env
+.env.local
+.env.*local
+**/appsettings.Development.json
+**/appsettings.Production.json
+
+# IDE
+.idea/
+*.sw?
+.DS_Store
+
+# 資料庫
+*.db
+*.db-shm
+*.db-wal
+
+# 依賴套件的快取
+*.lock.json
+package-lock.json
+yarn.lock
+
+# 建置輸出
+**/wwwroot/dist/
+**/ClientApp/dist/
